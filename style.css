@@ -247,3 +247,30 @@ nav ul li a:hover::after {
 .language-section:hover {
     transform: translateY(-5px);
 }
+
+/* projects section */
+
+#projects .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 10vw;
+}
+
+.project-image {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.project-image:hover {
+    transform: scale(1.1);
+
+}
+#projects .section-title {
+    text-align: center;
+    display: block;
+    margin-bottom: 0px
+}
